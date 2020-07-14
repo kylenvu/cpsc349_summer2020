@@ -28,7 +28,7 @@ form li + li {
 }
 
 h1 {
-  padding: 30px;
+  padding: 50px;
   text-align: center;
 }
 
@@ -48,6 +48,16 @@ label {
   display: inline-block;
   text-align: right;
   width: 90px;
+}
+
+nav ul {
+  background-color: #333;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 textarea {
@@ -75,7 +85,7 @@ textarea {
   list-style: none;
 } */
 
-.nav-top {
+/* .nav-top {
   background-color: #333;
   list-style-type: none;
   margin: 0;
@@ -84,7 +94,7 @@ textarea {
   position: fixed;
   top: 0;
   width: 100%;
-}
+} */
 
 .nav-top li {
   border-right: 1px solid #bbb;
